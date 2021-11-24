@@ -96,14 +96,16 @@ background-color: blue;
 // `
 
 const MenuWrapper = styled.div`
-@media (max-width: 768px) {
-  margin-top: 20vh;
-  }
+  @media(min-width: 1920px) {
+      background-color: purple;
+    };
 
-  @media(max-width: 480px){
-    margin-top: 20vh;
-    margin-left: 5vw;
-  }
-  
+    @media(max-width: 768px) {
+      background-color: green;
+    };
+
+    @media(max-width: 480px) {
+      background-color: blue;
+    };
  
 `
