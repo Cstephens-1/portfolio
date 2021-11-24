@@ -99,6 +99,11 @@ const MenuWrapper = styled.div`
 @media (max-width: 768px) {
   margin-top: 20vh;
   }
+
+  @media(max-width: 480px){
+    margin-top: 20vh;
+    margin-left: 5vw;
+  }
   
  
 `
