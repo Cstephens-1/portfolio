@@ -55,7 +55,7 @@ const TriangleUp = styled.div `
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-bottom: 150px solid red;
-  margin-left: 48.5vw;
+  margin-left: 49.5vw;
   border-radius: 50%;
 `
 
@@ -65,7 +65,7 @@ const AboutButtonStyler=styled.button`
   color: white;
   font-size: 18px;
   margin-top: 10vh;
-  margin-left: -1.9vw;
+  margin-left: -2vw;
   font-family: 'Comfortaa', cursive;
   &:hover{
     color: black;

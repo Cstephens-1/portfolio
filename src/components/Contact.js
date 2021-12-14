@@ -42,7 +42,7 @@ const TriangleDown = styled.div `
       border-right: 100px solid transparent;
       border-top: 150px solid red;
       border-radius: 50%;
-      margin-left: 48.5vw;
+      margin-left: 49.5vw;
       margin-top: 2vh;
       position: relative;
       z-index: 1;
@@ -55,8 +55,8 @@ const ContactButtonStyler=styled.button`
   border-style: none;
   color: white;
   font-size: 18px;
-  margin-left: -2.4vw;
-  margin-top: -12vh;
+  margin-left: -2.5vw;
+  margin-top: -13vh;
   position: absolute;
   font-family: 'Comfortaa', cursive;
   z-index: 2;

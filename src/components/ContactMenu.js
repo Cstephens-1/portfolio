@@ -4,7 +4,7 @@ import { faEnvelopeOpen} from '@fortawesome/free-solid-svg-icons'
 import { faPhone} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import {faGithub} from "@fortawesome/free-brands-svg-icons"
-import {BrowserRouter, Link, redirect} from "react-router-dom"
+import {BrowserRouter} from "react-router-dom"
 
 
 
@@ -49,11 +49,12 @@ export default ContactMenu
 const ContactMenuStyler = styled.div`
   background-color: black;
   height: 50px;
-  width:600px;
+  width:800px;
   margin-top:-2vh; 
-  margin-left: -15vw;
+  margin-left: -25vw;
   border-radius: 12px;
   color: black;
+  text-align: center;
 `
 
 const ContactButtonStyler=styled.div`

@@ -16,18 +16,18 @@ function closeProjectMenu(){
         <ProjectsMenuStyler onMouseLeave={closeProjectMenu}>
                 <BrowserRouter>
             <div>
-                <Link to="/github.com">Coachable</Link>
-                <ButtonStyler><FontAwesomeIcon icon={faYoutube} /></ButtonStyler>
+                <a href="https://www.github.com">Coachable</a>
+                {/* <ButtonStyler><FontAwesomeIcon icon={faYoutube} /></ButtonStyler> */}
                 <ButtonStyler><FontAwesomeIcon icon={faGithub} /></ButtonStyler>
             </div>
             <div>
-            <Link to="/github.com">PoolBoy</Link>
-            <ButtonStyler><FontAwesomeIcon icon={faYoutube} /></ButtonStyler>
+            <a href="https://www.github.com">PoolBoy</a>
+            {/* <ButtonStyler><FontAwesomeIcon icon={faYoutube} /></ButtonStyler> */}
                 <ButtonStyler><FontAwesomeIcon icon={faGithub} /></ButtonStyler>
             </div>
             <div>
-            <Link to="/github.com">Socialite</Link>
-            <ButtonStyler><FontAwesomeIcon icon={faYoutube} /></ButtonStyler>
+                <a href="https://www.github.com">Socialite</a>
+                {/* <ButtonStyler><FontAwesomeIcon icon={faYoutube} /></ButtonStyler> */}
                 <ButtonStyler><FontAwesomeIcon icon={faGithub} /></ButtonStyler>
             </div>
                 </BrowserRouter>
@@ -44,6 +44,7 @@ const ProjectsMenuStyler = styled.h1`
   margin-top: -6vh; 
   margin-left: -26vw;
   border-radius: 15px;
+  text-align: center;
 `
 
 const ButtonStyler=styled.button`

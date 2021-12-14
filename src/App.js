@@ -37,29 +37,25 @@ function App() {
 
   return (
     <AppWrapper>
+      <HeadStyler>Under Construction</HeadStyler>
+      <HeadStyler>Please check back soon!</HeadStyler>
         <h1>Cory Stephens</h1>
         <p>Software Developer</p>
       <MenuWrapper>
+      <div>
         <About />
-        <Projects />
+        </div>
+          <Projects />
+          <Skills />
+        <div>
         <Contact />
-        <Skills />
+        </div>
       </MenuWrapper>
     </AppWrapper>
   )
 }
 
 export default App;
-
-
-
-//components:
-//about
-//projects
-//contact
-//hobbies?
-//skills
-
 
 const AppWrapper = styled.div`
 background-color: black;
@@ -68,23 +64,25 @@ bottom: 0;
 left: 0;
 right: 0;
 position: absolute;
+height: 125vh;
+width: 110vw;
 
 `
-const MoveImage = keyframes`
-  0% {width: 100%; height: 100%; margin-top: 20vh;}
-  /* 30%{width: 70%; height: 70%; margin-top: 10vh; margin-right: 80vw; } */
-  /* 60%{width: 30%; height: 30%; margin-top: 2vh; margin-right: 90vw;} */
-  100%{width: 10%; height: 10%; margin-right: 98vw; top: 0; opacity: 30%; }
-`
+// const MoveImage = keyframes`
+//   0% {width: 100%; height: 100%; margin-top: 20vh;}
+//   /* 30%{width: 70%; height: 70%; margin-top: 10vh; margin-right: 80vw; } */
+//   /* 60%{width: 30%; height: 30%; margin-top: 2vh; margin-right: 90vw;} */
+//   100%{width: 10%; height: 10%; margin-right: 98vw; top: 0; opacity: 30%; }
+// `
 
-const ImgStyler=styled.h1`
+/* const ImgStyler=styled.h1`
 height: 100px;
 width: 225;
 position: absolute;
 margin-left: 48.5vw;
 margin-top: -15vh;
 background-color: blue;
-`
+` */
 
 // const ImgContainer = styled.div`
 //   margin-left: 70vw;
@@ -96,16 +94,20 @@ background-color: blue;
 // `
 
 const MenuWrapper = styled.div`
-  @media(min-width: 1920px) {
-      background-color: purple;
+  @media screen and (max-width: 2400px) {
+      margin-left: -6vw;
     };
+    @media screen and (max-width: 1800px) and (min-width: 800px) {
+      margin-left: -6vw;
 
-    @media(max-width: 768px) {
-      background-color: green;
     };
-
-    @media(max-width: 480px) {
-      background-color: blue;
+    @media screen and (max-width: 480px) { 
+      margin-left: -6vw;
     };
- 
 `
+const HeadStyler = styled.header`
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  `
